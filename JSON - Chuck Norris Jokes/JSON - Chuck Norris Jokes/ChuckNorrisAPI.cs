@@ -6,7 +6,7 @@ namespace JSON___Chuck_Norris_Jokes
 {
     class ChuckNorrisAPI
     {
-        public string categories { get; set; }
+        public string value { get; set; }
 
     }
 }
