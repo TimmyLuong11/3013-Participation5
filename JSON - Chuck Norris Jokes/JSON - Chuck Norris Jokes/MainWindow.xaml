@@ -1,0 +1,20 @@
+﻿<Window x:Class="JSON___Chuck_Norris_Jokes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON___Chuck_Norris_Jokes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s70-ae-3079a_1.jpg?w=800&amp;dpr=1&amp;fit=default&amp;crop=default&amp;q=65&amp;vib=3&amp;con=3&amp;usm=15&amp;bg=F4F4F3&amp;ixlib=js-2.2.1&amp;s=5967d2705f73753956142c8603dd21a4"/>
+        </Grid.Background>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="125,126,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Get A Joke" HorizontalAlignment="Left" Margin="534,126,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock x:Name="txtBlock" HorizontalAlignment="Left" Margin="113,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="133" Width="518"/>
+        <Label Content="Get a category joke:" HorizontalAlignment="Left" Margin="127,95,0,0" VerticalAlignment="Top" Foreground="Black"/>
+        <Label Content="Chuck Norris Jokes" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</Window>
